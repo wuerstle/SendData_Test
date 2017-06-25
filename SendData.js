@@ -20,7 +20,7 @@ var SendData;
     }
     function sendRequest(_color) {
         var xhr = new XMLHttpRequest();
-        xhr.open("GET", "https://eia2-test.herokuapp.com/?color" + _color, true);
+        xhr.open("GET", "https://send-data-test.herokuapp.com/?color=" + _color, true);
         //xhr.open("GET", "https://eia2-servertest.herokuapp.com?color=" + _color, true);
         xhr.addEventListener("readystatechange", handleStateChange);
         xhr.send();
