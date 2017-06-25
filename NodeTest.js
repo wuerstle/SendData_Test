@@ -24,7 +24,7 @@ function handleRequest(_request, _response) {
         console.log(key + ":" + query[key]);
     }
     //Ausgabe auf Heroku
-    _response.write("Ich höre Stimmen");
+    _response.write("Check");
     _response.end();
 }
 //# sourceMappingURL=NodeTest.js.map

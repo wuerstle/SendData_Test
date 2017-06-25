@@ -34,6 +34,6 @@ function handleRequest(_request: Http.IncomingMessage, _response: Http.ServerRes
     }
     
     //Ausgabe auf Heroku
-    _response.write("Ich höre Stimmen");
+    _response.write("Check");
     _response.end();
 }
