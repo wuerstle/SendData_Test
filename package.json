@@ -3,7 +3,7 @@
 	"version" : "0.0.1",
 	"description" : "first node test",
 	"author" : "Lisa Würstle'",
-	"main" : "NodeTest.js",
+	"main" : "SendData.js",
 	"scripts" : {
 		"start" : "node SendData.js"
 	},
